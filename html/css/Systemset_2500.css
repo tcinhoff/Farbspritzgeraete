@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("../Graphik/tittelbild.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	color: orange;
+	text-align: center;
+	width: 850px;
+	height: 10%;
+	font-size: 65px;
+	margin-top:1%;
+	text-shadow: 3px 2px black;
+	font-family: Verdana;
+}
+h2{
+	color: brown;
+	text-align: center;
+	width: 850px;
+	height: 7%;
+	font-size: 30px;
+	margin-top:3%;
+	text-shadow: 1px 1px black;
+	font-family: Verdana;
+}
+a{
+	text-decoration: none;
+
+}
+#block{
+	width: 850px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+}
+.link1, .link2{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	width:50%;
+}
+.link1{
+	text-align: left;
+}
+.link2{
+	text-align: right;
+}
+.box1, .box2{
+	float: left;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+.bild1{
+	margin-top:14%;
+	margin-right: 5%;
+}
+.box1{
+	font-size:18px;
+	width: 60%;
+	text-align: left;
+	margin-bottom: 15%;
+}
+.box1, .bild1{
+	float: left;
+}
+.box2{
+	font-size:17px;
+	width: 30%;
+	text-align: left;
+	margin-bottom: 15%;
+}
+
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00008B;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}

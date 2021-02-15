@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("../Graphik/tittelbild.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	color: orange;
+	text-align: center;
+	width: 850px;
+	height: 10%;
+	font-size: 80px;
+	text-shadow: 3px 2px black;
+	font-family: Verdana;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+h2{
+	color: brown;
+	text-align: center;
+	width: 850px;
+	height: 10%;
+	font-size: 25px;
+	margin-top:5%;
+	text-shadow: 1px 1px black;
+	font-family: Verdana;
+}
+a{
+	text-decoration: none;
+
+}
+#block{
+	width: 850px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+}
+.link1, .link2{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:10px;
+	margin-bottom:30px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	width:50%;
+}
+.link1{
+	text-align: left;
+}
+.link2{
+	text-align: right;
+}
+
+.box7, .box8, .box9{
+	margin-left: 18%;
+	font-weight: bold;
+	font-size: 18px;
+}
+.box7{
+	text-align: left;
+}
+.box8{
+	padding-left:10%;
+	text-align: left;
+}
+.box9{
+	padding-left:22%;
+	text-align:left;
+}
+.box0{
+		font-size: 17px;
+		margin-top:20px;
+		margin-bottom:27px;
+		text-align: justify;
+}
+.bild1, .box1{
+	float: left;
+}
+.box1{
+	margin-right: 60%;
+	margin-bottom: 6%;
+}
+
+.bild2, .box2{
+	float: left;
+	}
+	.box2{
+		margin-right: 40%;
+		margin-bottom: 6%;
+	}
+
+.bild3, .box3{
+	float: left;
+	}
+	.box3{
+		margin-right: 20%;
+		margin-bottom: 6%;
+	}
+
+.bild4, .box4{
+	float: left;
+	}
+	.box4{
+		margin-right: 5%;
+		margin-bottom: 6%;
+	}
+
+.bild5, .box5{
+	float: left;
+	}
+	.box5{
+		margin-right: 0%;
+		margin-bottom: 20%;
+	}
+
+.link3, .link4, .link5, .link6{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:30px;
+	margin-bottom:100px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	margin-right: 2%;
+	width: 23%;
+}
+.link3{
+	margin-left:12%;
+	text-align: center;
+}
+.link4{
+	text-align: center;
+}
+.link5{
+	text-align: center;
+}
+.link6{
+	margin-right:10%;
+	text-align: center;
+	margin-bottom: 15%;
+}
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}

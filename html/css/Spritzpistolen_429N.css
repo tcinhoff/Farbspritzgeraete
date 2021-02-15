@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("../Graphik/tittelbild.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	color: orange;
+	text-align: center;
+	width: 850px;
+	height: 10%;
+	font-size: 70px;
+	text-shadow: 3px 2px black;
+	font-family: Verdana;
+	margin-bottom: 2%;
+	margin-top: 4%;
+}
+a{
+	text-decoration: none;
+
+}
+#block{
+	width: 850px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+}
+.link1, .link2{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	width:50%;
+}
+.link1{
+	text-align: left;
+}
+.link2{
+	text-align: right;
+}
+.box1, .box2, .box3, .box4{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 2%;
+	font-size:18px;
+	text-align: left;
+	box-sizing: border-box;
+	width: 73%;
+
+}
+
+.box1, .bild1{
+	float: left;
+}
+.bild1{
+	margin-top:2%;
+	margin-right: 6%;
+}
+.box1{
+	margin-bottom: 3%;
+}
+
+
+.bild2, .box2{
+	float: left;
+}
+.bild2{
+	margin-top:3%;
+	margin-right: 11%;
+	margin-left: 6%;
+}
+.box2{
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width: auto;
+}
+
+
+.box3, .bild3{
+	float: left;
+}
+.bild3{
+	margin-top:2%;
+	margin-right: 9%;
+	margin-left: 3%;
+}
+
+.box4{
+	padding-top: 5%;
+	padding-bottom: 7%;
+	font-size:18px;
+	text-align: left;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00008B;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}

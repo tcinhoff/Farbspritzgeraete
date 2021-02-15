@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("../Graphik/tittelbild.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	color: orange;
+	text-align: center;
+	width: 850px;
+	height: 10%;
+	font-size: 80px;
+	margin-top:1%;
+	text-shadow: 3px 2px black;
+	font-family: Verdana;
+}
+a{
+	text-decoration: none;
+	
+}
+#block{
+	width: 850px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+}	
+.link1, .link2{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	width:50%;
+}
+.link1{
+	text-align: left;
+}
+.link2{
+	text-align: right;
+}
+.box1, .box2, .box3{
+	float: left;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.box1{
+	width: 40%;
+	text-align: justify;
+	margin-right: 3%;
+}
+.box2{
+	width: 57%;
+	margin-left: 0%;
+	text-align: justify;
+}
+.box3{
+	float: right;
+	padding-top: 15px;
+	width: 100%;
+	text-align: justify;
+	margin-bottom: 3%;
+}
+.box4{
+	float: right;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-right:20%;
+	padding-left:20%;
+	width: 266px;
+	height: 147px;
+	position: center;
+}
+.box5{
+	float: right;
+	box-sizing: border-box;
+	margin-top:3%;
+	margin-bottom:20%;
+	width: 100%;
+	height: auto;
+	text-align: left;
+}
+
+.link3, .link4, .link5, .link6{
+	font-size: 35px;
+	font-family: Arial;
+	float: left;
+	margin-top:30px;
+	margin-bottom:100px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	width: 20%;
+}
+.link3{
+	margin-left:10%;
+	text-align: center;
+}
+.link4{
+	text-align: center;
+}
+.link5{
+	text-align: center;
+}
+.link6{
+	margin-right:10%;
+	text-align: center;
+}
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
+} 
